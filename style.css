@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#choses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 4em;
+}
+
+.chose{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.chose:hover{
+    border: 5px solid gainsboro;
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.no{
+    font-size: 3rem;
+}
+
